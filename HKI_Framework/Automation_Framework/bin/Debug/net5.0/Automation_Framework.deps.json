@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Automation_Framework/1.0.00": {
+      "Automation_Framework/1.0.1": {
         "dependencies": {
           "Appium.WebDriver": "4.3.1",
           "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
@@ -1082,7 +1082,7 @@
     }
   },
   "libraries": {
-    "Automation_Framework/1.0.00": {
+    "Automation_Framework/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

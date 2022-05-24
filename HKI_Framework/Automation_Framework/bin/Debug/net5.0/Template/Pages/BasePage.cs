@@ -1,4 +1,4 @@
-﻿using Automation_Framework.Builders;
+﻿/*using Automation_Framework.Builders;
 using Automation_Framework.Utilities;
 using Automation_Framework.Extensions.WebDriver;
 using System.Collections.ObjectModel;
@@ -66,3 +66,4 @@ namespace Automation_Framework.Tests.Pages
         public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "FirstScreenshot");
     }
 }
+*/

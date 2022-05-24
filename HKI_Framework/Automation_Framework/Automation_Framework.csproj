@@ -6,7 +6,7 @@
 
     <IsPackable>true</IsPackable>
 
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 
     <PackageId>HKI_Automation_Framework</PackageId>
 
@@ -22,7 +22,7 @@
 
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 
-    <Version>1.0.00</Version>
+    <Version>1.0.1</Version>
 
     <PackageIcon>logo.png</PackageIcon>
 

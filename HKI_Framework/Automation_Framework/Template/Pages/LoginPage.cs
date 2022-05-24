@@ -1,4 +1,4 @@
-﻿using Automation_Framework.Builders;
+﻿/*using Automation_Framework.Builders;
 using Automation_Framework.Enums;
 using Automation_Framework.Extensions.WebDriver;
 using Automation_Framework.WebElementModels;
@@ -25,10 +25,10 @@ namespace Automation_Framework.Tests.Pages
 
         public IButton LoginWarning => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
 
-        /*public string GetInnerText_Warning()
+        public string GetInnerText_Warning()
         {
             return LoginWarning.Text;
-        }*/
+        }
 
         public void Scroll()
         {
@@ -53,3 +53,4 @@ namespace Automation_Framework.Tests.Pages
 
     }
 }
+*/
