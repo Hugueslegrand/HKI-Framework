@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>true</IsPackable>
+
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <PackageId>HKI_Automation_Framework</PackageId>
+
+    <Authors>Ibragim Ismailov, Kiendrebeogo Hugues Legrand, Khalid El Moussaoui</Authors>
+
+    <Company>HKI_Automation_Framework</Company>
+
+    <Product>HKI_Automation_Framework</Product>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <Description></Description>
+
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <Version>1.0.00</Version>
+
+    <PackageIcon>logo.png</PackageIcon>
+
+    <PackageIconUrl />
+  </PropertyGroup>
+
+
+
+	<ItemGroup>
+		<Content Include="Template\*\*">
+			<Pack>
+				true
+			</Pack>
+			<PackagePath>
+				/contentFiles/any/net5.0/Template
+			</PackagePath>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Compile Remove="Template\Pages\HomePage.cs" />
+		<Compile Remove="Template\Pages\LoginPage.cs" />
+		<Compile Remove="Template\Pages\Navigation.cs" />
+		<Compile Remove="Template\Screens\HomeScreen.cs" />
+		<Compile Remove="Template\Tests\TestKeyboardShortcuts.cs" />
+		<Content Include="Template\appSettings.json">
+			<Pack>
+				true
+			</Pack>
+			<PackagePath>
+				/contentFiles/any/net5.0/Template
+			</PackagePath>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+
+
+	
+
+
+
+
+	<ItemGroup>
+    <PackageReference Include="Appium.WebDriver" Version="4.3.1" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="FluentAssertions" Version="6.5.1" />
+    <PackageReference Include="L" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit.Allure" Version="1.2.1.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="WebDriverManager" Version="2.12.3" />
+
+
+  </ItemGroup>
+
+
+
+	
+
+
+
+
+	<ItemGroup>
+	  <None Include="..\..\..\Documentation\Technical-docs\logo.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
+	</ItemGroup>
+
+
+
+
+</Project>
