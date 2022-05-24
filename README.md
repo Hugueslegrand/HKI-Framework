@@ -68,6 +68,5 @@ Note how all pages necessary for this specific test case are initialized using t
 
  
 8. **Run your script and have fun!**<br>
-The scripts can be run from the Test Explorer
-Optionally the scripts can be run by right-clicking on the method name
+The scripts can be run from the Test Explorer or optionally the scripts can be run by right-clicking on the method name.
  
